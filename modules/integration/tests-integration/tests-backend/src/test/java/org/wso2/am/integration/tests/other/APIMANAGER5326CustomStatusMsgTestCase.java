@@ -89,7 +89,7 @@ public class APIMANAGER5326CustomStatusMsgTestCase extends APIMIntegrationBaseTe
         String apiName = "ErrorResponseCheckAPI";
         String apiVersion = "1.0.0";
         String apiContext = "message";
-        String endpointUrl = "http://" + InetAddress.getLocalHost().getHostName() + ":1989";
+        String endpointUrl = "http://" + InetAddress.getLocalHost().getHostAddress() + ":1989";
         String appName =  "testApplication";
 
         try {
